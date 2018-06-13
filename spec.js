@@ -4,7 +4,7 @@ var chai = require('chai').expect;
 
 describe('contracts', function () {
 
-    it('should get all contracts, Rodney', function (done) {
+    it('should get all contracts', function (done) {
         request(app)
             .get('/contracts')
             .set('Accept', 'application/json')
