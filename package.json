@@ -1,0 +1,33 @@
+{
+  "name": "newgen3",
+  "version": "1.0.0",
+  "description": "Go",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodsanshare/newgen3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodsanshare/newgen3/issues"
+  },
+  "homepage": "https://github.com/rodsanshare/newgen3#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "supertest": "^3.1.0"
+  }
+}
